@@ -100,7 +100,7 @@ def getPredictions(raceName):
     return results
 
 st.title("Formula 1 Race Predictor")
-st.write("Upcoming Cicuits: ", "Jeddah Corniche Circuit, Bahrain International Circuit, Circuit de Monaco, Red Bull Ring, Sochi Autodrom, Autodromo Nazionale di Monza, Circuit de Spa-Francorchamps, Circuit de Spa-Francorchamps")
+st.write("Upcoming Cicuits: ", " Spanish Grand Prix, Monaco Grand Prix, Azerbaijan Grand Prix, Canadian Grand Prix, British Grand Prix, Austrian Grand Prix, French Grand Prix, Hungarian Grand Prix")
 with st.form("my_form"):
     text = st.text_input("Enter Circuit Name")
     

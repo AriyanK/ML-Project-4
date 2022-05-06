@@ -100,6 +100,7 @@ def getPredictions(raceName):
     return results
 
 st.title("Formula 1 Race Predictor")
+st.write("Upcoming Cicuits: ", "Jeddah Corniche Circuit, Bahrain International Circuit, Circuit de Monaco, Red Bull Ring, Sochi Autodrom, Autodromo Nazionale di Monza, Circuit de Spa-Francorchamps, Circuit de Spa-Francorchamps")
 with st.form("my_form"):
     text = st.text_input("Enter Circuit Name")
     
@@ -109,8 +110,7 @@ with st.form("my_form"):
     submitted = st.form_submit_button("Submit")
     if submitted:
         st.write("Prediction for Final Standings")
-        x = text.title()
-        
+        x = text
         final_results = getPredictions(x)
         
         
